@@ -14,7 +14,7 @@ Before running the program, ensure you have the following installed:
 - Python 3.8 or higher
 - OpenCV
 - Ultralytics YOLO library
-- A trained YOLO model for face detection (e.g., `face_detection_2.pt`)
+- The provided YOLO model for face detection (`face_detection_2.pt`), available in this repository.
 
 Install the required Python packages:
 
@@ -28,19 +28,18 @@ pip install ultralytics opencv-python
 
 ```bash
 git clone https://github.com/danielsuassuna04/Face_detection_YOLO.git
+cd Face_detection_YOLO
 ```
 
-2. Place your YOLO model file (e.g., `face_detection_2.pt`) in the same directory as the script.
-
-3. Run the script:
+2. Run the script:
 
 ```bash
 python face_detection.py
 ```
 
-4. The webcam feed will open in a new window displaying the real-time face detections.
+3. The webcam feed will open in a new window displaying the real-time face detections.
 
-5. Press `q` to quit the program.
+4. Press `q` to quit the program.
 
 ## Code Overview
 
@@ -83,7 +82,7 @@ python face_detection.py
   results = model.predict(frame, conf=0.25)
   ```
 
-- **Model File**: Replace `face_detection_2.pt` with your trained YOLO model file.
+- **Model File**: Ensure the `face_detection_2.pt` model file is in the same directory as the script.
 
 ## Notes
 - Ensure that the YOLO model is trained specifically for face detection to achieve accurate results.
