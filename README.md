@@ -19,7 +19,7 @@ Before running the program, ensure you have the following installed:
 Install the required Python packages:
 
 ```bash
-pip install ultralytics opencv-python
+pip install requirements.txt
 ```
 
 ## Usage
