@@ -35,7 +35,7 @@ git clone https://github.com/danielsuassuna04/Face_detection_YOLO.git
 3. Run the script:
 
 ```bash
-python yolo_camera_inference.py
+python face_detection.py
 ```
 
 4. The webcam feed will open in a new window displaying the real-time face detections.
