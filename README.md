@@ -27,8 +27,7 @@ pip install ultralytics opencv-python
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/real-time-face-detection.git
-cd real-time-face-detection
+git clone https://github.com/danielsuassuna04/Face_detection_YOLO.git
 ```
 
 2. Place your YOLO model file (e.g., `face_detection_2.pt`) in the same directory as the script.
